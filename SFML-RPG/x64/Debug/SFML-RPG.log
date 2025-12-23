@@ -1,0 +1,65 @@
+﻿  Draw.cpp
+  Input.cpp
+  Player.cpp
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(8,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(9,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(28,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(35,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(36,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(214,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(214,27): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(214,27): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(214,27): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(214,27): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(216,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(216,35): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(216,35): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(216,35): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(216,35): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(220,26): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(220,26): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(220,26): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(220,26): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(220,26): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(222,34): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(222,34): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(222,34): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(222,34): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(222,34): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Player.cpp(302,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+  RPEngine.cpp
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:         ]
+  ReloadWorld.cpp
+  Update.cpp
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(25,17): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(25,17): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(25,17): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(25,17): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(25,17): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(26,18): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(26,18): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(26,18): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(26,18): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\Update.cpp(26,18): warning C4244:         ]
+  main.cpp
+  Generating Code...
+  SFML-RPG.vcxproj -> C:\Users\james\source\SFML-RPG-GAME\x64\Debug\SFML-RPG.exe
