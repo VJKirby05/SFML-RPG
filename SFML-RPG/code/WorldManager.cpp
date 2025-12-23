@@ -33,7 +33,7 @@ int** WorldManager::nextWorld(VertexArray& rVaLevel)
 	case 1:
 		worldToLoad = "worlds/level0-tutorial.txt";
 		m_PlayerStartPosition.x = 100;
-		m_PlayerStartPosition.y = 900;
+		m_PlayerStartPosition.y = 700;
 		break;
 
 	case 2:
