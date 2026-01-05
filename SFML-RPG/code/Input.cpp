@@ -14,7 +14,7 @@ void RPEngine::input()
 			m_Window.close(); // Allows the window's X button to work
 		}
 
-		if (state == State::MAIN_MENU)
+		if (state == State::TITLE_SCREEN)
 		{
 			if (Keyboard::isKeyPressed(Keyboard::E))
 			{

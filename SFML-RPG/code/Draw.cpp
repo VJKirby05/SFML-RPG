@@ -4,6 +4,17 @@ using namespace sf;
 
 void RPEngine::draw()
 {
+	if (state == State::TITLE_SCREEN)
+	{
+		m_Window.setView(m_TitleView);
+
+		// Draw the title
+		m_Window.draw(m_TitleText);
+
+		// Draw the debug prompt
+		m_Window.draw(m_TitlePrompt);
+	}
+
 	// Draw player and stuff
 	if (state == State::PLAYING)
 	{

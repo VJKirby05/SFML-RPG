@@ -1,93 +1,22 @@
-﻿  WorldManager.cpp
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(93,26): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(93,26): warning C4267:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(93,26): warning C4267:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(93,26): warning C4267:             T=int
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(93,26): warning C4267:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,31): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,31): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,31): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,31): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,16): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,16): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,16): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(139,16): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,45): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,45): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,45): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,45): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,30): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,30): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,30): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(142,30): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,59): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,59): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,59): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,59): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,30): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,30): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,30): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(145,30): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,47): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,47): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,47): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,47): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,17): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,17): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,17): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(148,17): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(154,19): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(154,19): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(154,19): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(154,19): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(154,19): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,27): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,27): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,27): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,27): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,14): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,14): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,14): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(157,14): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,35): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,35): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,35): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,35): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,14): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,14): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,14): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(160,14): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(163,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(163,27): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(163,27): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(163,27): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(163,27): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(181,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(181,17): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(181,17): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(181,17): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(181,17): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(180,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(180,17): warning C4244:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(180,17): warning C4244:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(180,17): warning C4244:             T=float
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(180,17): warning C4244:         ]
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(188,9): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(275,40): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(275,40): warning C4267:         with
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(275,40): warning C4267:         [
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(275,40): warning C4267:             T=int
-C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\WorldManager.cpp(275,40): warning C4267:         ]
+﻿  RPEngine.cpp
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(10,44): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(11,44): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,52): warning C4244:         ]
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:         with
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:         [
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:             T=float
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\RPEngine.cpp(14,38): warning C4244:         ]
   SFML-RPG.vcxproj -> C:\Users\james\source\SFML-RPG-GAME\x64\Debug\SFML-RPG.exe

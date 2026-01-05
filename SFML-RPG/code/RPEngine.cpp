@@ -15,8 +15,8 @@ RPEngine::RPEngine()
 
 	// Initialise the full screen view
 	m_MainView.setSize(resolution);
-	//m_MainView.setCenter(resolution.x / 2, resolution.y / 2);
-
+	
+	m_TitleView.setSize(resolution);
 	
 	// Load background graphic for story menu
 	m_BackgroundTexture = TextureHolder::GetTexture(
@@ -33,8 +33,15 @@ RPEngine::RPEngine()
 	m_TitleText.setFont(font);
 	m_TitleText.setCharacterSize(85);
 	m_TitleText.setFillColor(Color::Red);
-	m_TitleText.setPosition(410, 50);
+	m_TitleText.setPosition(80, 50);
 	m_TitleText.setString("<+= ROLE PLAYING GAME =+>");
+
+	// Game title prompt
+	m_TitlePrompt.setFont(font);
+	m_TitlePrompt.setCharacterSize(50);
+	m_TitlePrompt.setFillColor(Color::White);
+	m_TitlePrompt.setPosition(350, 500);
+	m_TitlePrompt.setString("Press E to start");
 }
 
 // Function for each world's tiles

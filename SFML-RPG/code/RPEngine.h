@@ -27,8 +27,14 @@ private:
 
 	WorldManager wm;
 
+	// View title screen
+	View m_TitleView;
+
 	// The game view
 	View m_MainView;
+
+	// Setup the UI
+	View m_UIView;
 
 	// The player
 	Player marine;
@@ -69,14 +75,7 @@ private:
 
 	// Game title graphic
 	Text m_TitleText;
-
-	// Create story menu
-	View m_StoryView;
-	Text m_StoryText;
-	Sprite m_StorySprite;
-
-	// Setup the UI
-	View m_UIView;
+	Text m_TitlePrompt;
 
 public:
 	// The RPEngine constructor
@@ -89,8 +88,8 @@ public:
 	void run();
 
 	// Game states
-	enum class State { MAIN_MENU, PAUSED, STORY_MENU, PLAYING, SCOREBOARD, OPTION };
-	State state = State::MAIN_MENU;
+	enum class State { TITLE_SCREEN, PAUSED, PLAYING, BATTLE_SCREEN };
+	State state = State::TITLE_SCREEN;
 
 	// Reset game
 	void resetGame();
