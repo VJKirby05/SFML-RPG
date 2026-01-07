@@ -27,7 +27,7 @@ void RPEngine::draw()
 		m_Window.draw(vaWorld, &m_TextureTiles);
 
 		// Draw the player
-		m_Window.draw(marine.getSprite());
+		m_Window.draw(pl.getSprite());
 
 		// Draw UI
 		//m_Window.setView(m_UIView);

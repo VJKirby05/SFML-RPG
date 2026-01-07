@@ -34,38 +34,38 @@ void RPEngine::input()
 			// Handle the pressing and releasing of the WASD keys
 			if (Keyboard::isKeyPressed(Keyboard::W))
 			{
-				marine.moveUp();
+				pl.moveUp();
 			}
 			else
 			{
-				marine.stopUpMovement();
+				pl.stopUpMovement();
 			}
 
 			if (Keyboard::isKeyPressed(Keyboard::S))
 			{
-				marine.moveDown();
+				pl.moveDown();
 			}
 			else
 			{
-				marine.stopDownMovement();
+				pl.stopDownMovement();
 			}
 
 			if (Keyboard::isKeyPressed(Keyboard::A))
 			{
-				marine.moveLeft();
+				pl.moveLeft();
 			}
 			else
 			{
-				marine.stopLeftMovement();
+				pl.stopLeftMovement();
 			}
 
 			if (Keyboard::isKeyPressed(Keyboard::D))
 			{
-				marine.moveRight();
+				pl.moveRight();
 			}
 			else
 			{
-				marine.stopRightMovement();
+				pl.stopRightMovement();
 			}
 
 			// Handle the player quitting

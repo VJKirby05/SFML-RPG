@@ -10,13 +10,13 @@ void RPEngine::update(float dtAsSeconds)
 	if (state == State::PLAYING)
 	{
 		// Make a note of the players new position
-		Vector2f playerPosition(marine.getCenter());
+		Vector2f playerPosition(pl.getCenter());
 
 		// Update the player
-		marine.update(dtAsSeconds);
+		pl.update(dtAsSeconds);
 
 		// Make a rect for all his parts
-		FloatRect detectionZone = marine.getPosition();
+		FloatRect detectionZone = pl.getPosition();
 
 		// Make a FloatRect to test each block
 		FloatRect block;
@@ -25,7 +25,7 @@ void RPEngine::update(float dtAsSeconds)
 		block.width = TILE_SIZE;
 		block.height = TILE_SIZE;
 
-		m_MainView.setCenter(marine.getCenter());
+		m_MainView.setCenter(pl.getCenter());
 		m_Window.setView(m_MainView);
 
 		if (m_NewWorldRequired)

@@ -33,11 +33,14 @@ private:
 	// The game view
 	View m_MainView;
 
-	// Setup the UI
+	// Setup the UI view
 	View m_UIView;
 
+	// Setup the battle view
+	View m_BattleView;
+
 	// The player
-	Player marine;
+	Player pl;
 
 	// Declare a sprite and a Texture for the background
 	Sprite m_BackgroundSprite;

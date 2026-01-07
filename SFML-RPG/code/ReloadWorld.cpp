@@ -29,7 +29,7 @@ void RPEngine::reloadWorld()
 	float tileSize = wm.getTileSize();
 
 	// Pass the arena data to player
-	marine.setArena(arenaBounds, tileSize);
+	pl.setArena(arenaBounds, tileSize);
 
 	// Delete previously allocated memory
 	for (int i = 0; i < wm.getWorldSpawningPointsSize().y; ++i)
@@ -43,7 +43,7 @@ void RPEngine::reloadWorld()
 	m_ArraySpawningPointsWorld = wm.nextWorldSpawningPoints();
 
 	// Spawn Player
-	marine.spawn(wm.getPlayerStartPosition());
+	pl.spawn(wm.getPlayerStartPosition());
 
 	// Make sure this code isn't run again
 	m_NewWorldRequired = false;

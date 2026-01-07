@@ -20,7 +20,7 @@ public:
 	const int VERTS_IN_QUAD = 4;
 	static const int TILE_WALL = 0;
 
-	// Position of marine
+	// Position of the player
 	Vector2f getPlayerStartPosition();
 
 	// A pointer to a pointer
