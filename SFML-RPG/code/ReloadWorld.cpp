@@ -45,6 +45,9 @@ void RPEngine::reloadWorld()
 	// Spawn Player
 	pl.spawn(wm.getPlayerStartPosition());
 
+	// Spawn Enemy
+	en.spawn(wm.getEnemyStartPosition());
+
 	// Make sure this code isn't run again
 	m_NewWorldRequired = false;
 }

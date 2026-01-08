@@ -11,6 +11,7 @@ private:
 	Vector2i m_WorldSize;
 	Vector2i m_WorldSpawningPointsSize;
 	Vector2f m_PlayerStartPosition;
+	Vector2f m_EnemyStartPosition;
 	int m_CurrentWorld = 0;
 	const int NUM_WORLDS = 8;
 
@@ -20,8 +21,9 @@ public:
 	const int VERTS_IN_QUAD = 4;
 	static const int TILE_WALL = 0;
 
-	// Position of the player
+	// Position of the player and enemy
 	Vector2f getPlayerStartPosition();
+	Vector2f getEnemyStartPosition();
 
 	// A pointer to a pointer
 	int** nextWorld(VertexArray& rVaLevel);

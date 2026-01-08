@@ -17,11 +17,15 @@ RPEngine::RPEngine()
 	m_MainView.setSize(resolution);
 	
 	m_TitleView.setSize(resolution);
+
+	m_BattleView.setSize(resolution);
 	
 	// Load background graphic for story menu
+	/*
 	m_BackgroundTexture = TextureHolder::GetTexture(
 		"graphics/background22.jpg");
 
+*/
 	// Load the texture for the background vertex array
 	m_TextureTiles = TextureHolder::GetTexture(
 		"graphics/tile-sheet0.png");

@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "TextureHolder.h"
 #include "Player.h"
+#include "Enemy.h"
 #include "WorldManager.h"
 #include <fstream>
 #include <sstream>
@@ -41,6 +42,9 @@ private:
 
 	// The player
 	Player pl;
+
+	// The enemy
+	Enemy en;
 
 	// Declare a sprite and a Texture for the background
 	Sprite m_BackgroundSprite;

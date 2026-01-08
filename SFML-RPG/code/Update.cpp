@@ -33,6 +33,11 @@ void RPEngine::update(float dtAsSeconds)
 			reloadWorld();
 		}
 
+		if (pl.getPosition().intersects(en.getPosition()))
+		{
+			state = State::BATTLE_SCREEN;
+		}
+
 		/*
 
 		// Build a zone around player to detect collisions
@@ -96,5 +101,10 @@ void RPEngine::update(float dtAsSeconds)
 		// Start of a new level
 		
 		*/
+	}
+
+	if (state == State::BATTLE_SCREEN)
+	{
+		m_Window.setView(m_BattleView);
 	}
 }

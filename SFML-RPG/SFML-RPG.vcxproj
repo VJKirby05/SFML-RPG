@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="code\Enemy.h" />
     <ClInclude Include="code\GameCharacter.h" />
     <ClInclude Include="code\Player.h" />
     <ClInclude Include="code\RPEngine.h" />
@@ -28,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\Draw.cpp" />
+    <ClCompile Include="code\Enemy.cpp" />
     <ClCompile Include="code\GameCharacter.cpp" />
     <ClCompile Include="code\Input.cpp" />
     <ClCompile Include="code\main.cpp" />

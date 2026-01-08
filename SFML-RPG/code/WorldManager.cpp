@@ -34,6 +34,8 @@ int** WorldManager::nextWorld(VertexArray& rVaLevel)
 		worldToLoad = "worlds/level0-tutorial.txt";
 		m_PlayerStartPosition.x = 100;
 		m_PlayerStartPosition.y = 700;
+		m_EnemyStartPosition.x = 400;
+		m_EnemyStartPosition.y = 700;
 		break;
 
 	case 2:
@@ -216,6 +218,12 @@ void WorldManager::setCurrentWorld(int worldNum)
 Vector2f WorldManager::getPlayerStartPosition()
 {
 	return m_PlayerStartPosition;
+}
+
+// Get enemy spawn position
+Vector2f WorldManager::getEnemyStartPosition()
+{
+	return m_EnemyStartPosition;
 }
 
 // Define world spawning points

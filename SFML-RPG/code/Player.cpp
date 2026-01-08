@@ -291,9 +291,15 @@ float Player::getSpeed() {
 	return m_Speed;
 }
 
-void Player::setSpeed(float speedIn) {
+// Set scale for player sprite
+void Player::setScale(float value) {
 
-	m_Speed = speedIn;
+	m_Sprite.setScale(value, value);
+}
+
+void Player::setPosition(float x, float y)
+{
+	m_Sprite.setPosition(x, y);
 }
 
 // Reset player health

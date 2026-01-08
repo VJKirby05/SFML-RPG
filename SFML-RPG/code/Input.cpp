@@ -74,5 +74,14 @@ void RPEngine::input()
 				m_Window.close();
 			}
 		}
+
+		// Allow the player and opponent to fight
+		if (state == State::BATTLE_SCREEN)
+		{
+			if (Keyboard::isKeyPressed(Keyboard::Escape))
+			{
+				m_Window.close();
+			}
+		}
 	}
 }

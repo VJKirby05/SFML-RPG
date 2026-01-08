@@ -87,6 +87,8 @@ public:
 	// Where is the player
 	FloatRect getPosition();
 
+	void setPosition(float x, float y);
+
 	// Where is the center of the player
 	Vector2f getCenter();
 
@@ -135,8 +137,8 @@ public:
 	// Get player speed
 	float getSpeed();
 
-	// Set player speed
-	void setSpeed(float speedIn);
+	// Set player sprite scale
+	void setScale(float value);
 
 	// Reset player health
 	void resetHealth();

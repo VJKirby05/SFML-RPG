@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	// Debug
-	cout << "DEBUG TEST" << endl;
+	cout << "RUN TEST" << endl;
 
 	// Declare instance of machine
 	RPEngine re;
