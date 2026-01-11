@@ -1,2 +1,2 @@
-﻿  Draw.cpp
-  SFML-RPG.vcxproj -> C:\Users\james\source\SFML-RPG-GAME\x64\Debug\SFML-RPG.exe
+﻿  BattleSystem.cpp
+C:\Users\james\source\SFML-RPG-GAME\SFML-RPG\code\BattleSystem.cpp(13,1): error C4716: 'BattleSystem::checkActors': must return a value
